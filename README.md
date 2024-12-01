@@ -59,7 +59,7 @@ Main Interface
 ![Main Interface](screenshots/Main Interface.png)
 
 ### Word Search Result
-![Word Search Result](screenshots/result.png)
+![Word Search Result](screenshots/Result.png)
 
 **Known Issues**
 Some words may not have pronunciation audio available.
