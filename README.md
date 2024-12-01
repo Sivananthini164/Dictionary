@@ -50,16 +50,7 @@ Meaning
 Part of speech
 Phonetic transcription
 Example sentence (if available)
-Click the speaker icon to play the pronunciation (if available).
-
-**Screenshots**
-Main Interface
-## Screenshots
-### Main Interface
-![Main Interface](screenshots/Main Interface.png)
-
-### Word Search Result
-![Word Search Result](screenshots/Result.png)
+Click the speaker icon to play the pronunciation (if available)
 
 **Known Issues**
 Some words may not have pronunciation audio available.
