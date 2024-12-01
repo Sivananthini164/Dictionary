@@ -1,0 +1,126 @@
+/* Reset and global styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*:not(i) {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Body background */
+body {
+    background-color: #f4c4cb;
+}
+
+/* Container styles */
+.container {
+    background-color: #fff;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+
+/* Search box styles */
+.search-box {
+    display: flex;
+    gap: 10px; /* Space between input and button */
+    align-items: center;
+}
+
+/* Input field styling */
+input[type="text"] {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc; /* Border around the input */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    outline: none; /* Remove default outline */
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #b7a6a6; /* Highlight border on focus */
+}
+
+.search-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.search-box input{
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #e8374b;
+    font-size: 16px;
+}
+
+.search-box button{
+    padding: 15px 0;
+    width: 25%;
+    background-color: #e26666;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.search-box button:hover {
+    background-color: #1a0207;
+}
+.result{
+    position: relative;
+}
+
+.result h3{
+    font-size: 30px;
+    color: #641318;  
+}
+
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.result button{
+    background-color: transparent;
+    color: #b9101b;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.result .details{
+    display: flex;
+    gap:10px;
+    color:#e5aec9;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+
+.word-meaning{
+    color:#b31b3c;
+}
+
+.word-example{
+    color:#b31b3c;
+    font-style: italic;
+    border-left: 5px solid #b93c4c;
+    padding-left: 20px ;
+    margin-top: 30px;
+}
+
+.error{
+    margin-top: 80px;
+    text-align: center;
+}
